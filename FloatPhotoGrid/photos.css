@@ -1,0 +1,17 @@
+img {
+    width: 30%;
+    float: left;
+    /* 10/6 */
+    margin: 1.66%;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1.66%;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 3px solid red;
+    width: 38%;
+    padding-bottom: 20px;
+}
