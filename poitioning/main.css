@@ -1,0 +1,15 @@
+.location-bar{
+  
+    background: red;
+    color: white;
+    position: relative;
+  }
+  
+  .location-bar nav {
+    
+    color: blue;
+    position: absolute;
+    right: 20px;
+    top: 8px;
+  
+  }
