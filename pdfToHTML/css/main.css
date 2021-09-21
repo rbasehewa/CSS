@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+
+.header img {
+    float: left;
+    border-radius: 4px;
+    padding: 5px;
+    width: 370px;
+    height: 99px;
+    left: 562px;
+}
+  
+  .header h1 {
+    position: relative;
+    top: 60px;
+    left: 559px;
+
+    color: purple;
+}
+
+ div topic {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+  }
