@@ -9,10 +9,53 @@
 	box-sizing: border-box;
 }
 
-body {
+html , body {
+  font-family: "helvertica Neue", Helvetica, sans-serif;
+  font-size: 16px;
     background-color: #FFFFFF;
 }
 
+h1,h2,h3,h4,h5,h6{
+  font-family: "Economica", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 0 1em;
+}
+
+h2{
+  font-size: 1.6rem;
+}
+
+h3{
+  font-size: 1.2rem;
+}
+
+.fixed-width{
+  width: 940px;
+  margin: 0 auto;
+}
+
+
+
+
+ /*================================
+  Header
+  ================================*/
+
+
+.page-header{
+  border-top: 5px solid red;
+  padding-bottom: 2em;
+}
+
+.page-header > div{
+  position: relative;
+}
+
+  .page-header .logo{
+    position: absolute;
+    border: 1px solid blue;
+  }
 
 .header img {
     float: left;
@@ -31,9 +74,29 @@ body {
     color: purple;
 }
 
- div topic {
-    width: 320px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
+div .info {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+ .topic {
+    width: 1200px;
+    padding: 50px;
+    margin: 20px;
+    background-color: #782FC8;
+    color: #FFFFFF;
+  }
+
+
+
+  /*================================
+  Footer
+  ================================*/
+
+  .page-footer{
+    margin: 5px;
+    border-bottom: 5px solid red;
   }
